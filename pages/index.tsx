@@ -2,8 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Service from '../components/Service'
+import Skills from '../components/Skills'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -16,23 +19,30 @@ const Home: NextPage = () => {
            {/* Header      */}
             <Header />
            {/* Hero */} 
-           <section id='hero ' className='snap-center'>
+           <section id='hero ' className='snap-start'>
             <Hero />
            </section>
 
            {/* About */}
-           <section id='about'className='snap-start' >
+           <section id='about'className='snap-center' >
             <About />
            </section>
 
            {/* Exprience */}
+           <section id='service' className='snap-center'>
+            <Service />
 
+           </section>
            {/* Skills */}
-
+             <section id='skills' className='snap-start'>
+              <Skills />
+              </section>  
            {/* Projects */}
 
            {/* Contact */}
-
+             <section id='contact' className='snap-start'>
+              <Contact />
+             </section>
     </div>
   )
 }
