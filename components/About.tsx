@@ -36,12 +36,8 @@ function About({}: Props): ReactElement {
             I m Shimil. I create Web applications using HTML, CSS and
             JavaScript in the client-side,Typescript, React and Next.js has a
             Front-End frame work,MongoDb,Mongoose,Express,Node.js in the back-
-            End and bit of UI/UX design using Figma I create Web applications
-            using HTML, CSS and JavaScript in the client-side,Typescript, React
-            and Next.js has a Front-End frame
-            work,MongoDb,Mongoose,Express,Node.js in the back- End and bit of
-            UI/UX design using Figma
-          </p>
+            End and bit of UI/UX design using Figma 
+            
         </div>
       </motion.div>
     );

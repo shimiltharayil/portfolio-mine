@@ -6,7 +6,7 @@ interface Props {
 
 export default function ServiceCard({}: Props): ReactElement {
     return (
-      <article className="flex flex-col rounded-lg items-center text-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[900px] snap-center bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 ">
+      <article className="flex flex-col rounded-lg items-center text-center space-y-7 flex-shrink-0 w-[50px] md:w-[600px] lg:w-[900px] snap-center bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 ">
         <motion.img
           initial={{
             y: -100,
