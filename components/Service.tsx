@@ -1,6 +1,10 @@
 import React, { ReactElement } from 'react'
 import { motion} from "framer-motion"
 import ServiceCard from './ServiceCard';
+import ServiceCardTwo from "./ServiceCardTwo";
+import ServiceCard3 from './ServiceCard3';
+import ServiceCard4 from "./ServiceCard4";
+
 interface Props {
     
 }
@@ -16,12 +20,12 @@ export default function Service({}: Props): ReactElement {
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           Service
         </h3>
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory' >
+        <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
           {/* Service Card */}
           <ServiceCard />
-          <ServiceCard />
-          <ServiceCard />
-          <ServiceCard />
+          <ServiceCardTwo />
+          <ServiceCard3 />
+          <ServiceCard4 />
         </div>
       </motion.div>
     );
