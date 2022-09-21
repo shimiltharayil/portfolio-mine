@@ -20,7 +20,7 @@ export default function ServiceCard({}: Props): ReactElement {
       <div className="px-0 md:px-10">
         <h4 className="uppercase font-bold">Mern Stack.</h4>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc space-y-4 ml-5 text-xs md:text-lg">
           <li>
             MERN stack is a collection of technologies that enables faster
             application development. It is used by developers worldwide

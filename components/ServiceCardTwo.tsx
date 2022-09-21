@@ -20,7 +20,7 @@ export default function ServiceCard({}: Props): ReactElement {
       <div className="px-0 md:px-10">
         <h4 className="uppercase font-bold">Web Design.</h4>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc space-y-4 ml-5 text-xs  md:text-lg">
           <li>
             Web design is the planning and creation of websites. This includes a
             number of separate skills that all fall under the umbrella of web

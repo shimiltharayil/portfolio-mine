@@ -22,7 +22,7 @@ export default function ServiceCard({}: Props): ReactElement {
         <div className="px-0 md:px-10">
           <h4 className="uppercase font-bold">Static Websites</h4>
 
-          <ul className="list-disc space-y-4 ml-5 text-lg">
+          <ul className="list-disc space-y-4 ml-5 text-xs md:text-lg">
             <li>
               A static web page is a web page that is delivered to the user
               web browser exactly as stored, in contrast to dynamic web pages
