@@ -33,7 +33,7 @@ function About({}: Props): ReactElement {
         />
         <div className=" px-0 md:px-10">
           <p className='text-sm'>
-            I'm Shimil. I create Web applications using HTML, CSS and
+            I m Shimil. I create Web applications using HTML, CSS and
             JavaScript in the client-side,Typescript, React and Next.js has a
             Front-End frame work,MongoDb,Mongoose,Express,Node.js in the back-
             End and bit of UI/UX design using Figma I create Web applications
