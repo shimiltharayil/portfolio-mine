@@ -46,7 +46,7 @@ const Home: NextPage = () => {
               <Contact />
              </section>
              <Link href="#hero" >
-              <footer className='sticky bottom-5 w-full cursor-pointer' >
+              <footer className='sticky bottom-10 w-full cursor-pointer' >
                 <div className='flex items-center justify-center' >
                       <ArrowUpCircleIcon className="h-11 w-11 text-[#F7AB0A] hover:cursor-pointer " />
                 </div>
