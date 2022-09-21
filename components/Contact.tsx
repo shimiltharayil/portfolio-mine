@@ -40,7 +40,7 @@ function Contact({}: Props) {
             <p className="text-2xl ">Kerala, India </p>
           </div>
         </div>
-        <form
+        {/* <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col space-y-2 w-fit mx-auto"
         >
@@ -75,7 +75,7 @@ function Contact({}: Props) {
             className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg "
             type="submit"
           >Submit</button>
-        </form>
+        </form> */}
       </div>
     </div>
   );
