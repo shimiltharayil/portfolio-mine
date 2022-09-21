@@ -1,7 +1,10 @@
 import React from 'react'
-import { PhoneIcon, MapIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 type Inputs = {
     name:string,
     email:string,
@@ -27,18 +30,33 @@ function Contact({}: Props) {
           <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
         </h4>
         <div>
-          <div className="flex items-center space-x-5">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-sm md:text-2xl">+91 7907321524</p>
-          </div>
+         
           <div className="flex items-center space-x-5">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-sm md:text-2xl">shimiltharayil007@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5">
-            <MapIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <LocationOnIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-sm md:text-2xl ">Kerala, India </p>
           </div>
+          <section className='flex p-10 justify-between' >
+
+          <div className="flex items-center ">
+            <a href="https://www.instagram.com/_shimil_47_/">
+              <InstagramIcon className="h-14 w-14 text-[#F7AB0A] hover:animate-bounce " />
+            </a>
+          </div>
+          <div className="flex items-center ">
+            <a href="https://www.linkedin.com/in/shimil-t-50912817b/">
+              <LinkedInIcon className="h-14 w-14 text-[#F7AB0A] hover:animate-bounce" />
+            </a>
+          </div>
+          <div className="flex items-center space-x-5">
+            <a href="https://github.com/shimiltharayil">
+              <GitHubIcon className="h-14 w-14 text-[#F7AB0A] hover:animate-bounce" />
+            </a>
+          </div>
+          </section>
         </div>
         {/* <form
           onSubmit={handleSubmit(onSubmit)}

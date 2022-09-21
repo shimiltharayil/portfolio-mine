@@ -52,6 +52,7 @@ const Home: NextPage = () => {
                 </div>
               </footer>
              </Link>
+          
     </div>
   )
 }
